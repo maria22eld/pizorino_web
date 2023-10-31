@@ -1,0 +1,229 @@
+
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: "Quicksand", sans-serif;
+      }
+      ul {
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+      }
+      .container {
+        background-color: white;
+        max-width: 1100px;
+        margin: auto;
+      }
+      .primary {
+        color: yellow;
+      }
+      .btn {
+        display: inline-block;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 15px;
+      }
+      .btn-primary {
+        color: white;
+        border: 1px solid white;
+      }
+      .btn-secondary {
+        color: #fff;
+        background: #383848;
+        margin-top: 2rem;
+      }
+      .btn-primary:hover,
+      .btn-secondary:hover {
+        background: rgba(255, 242, 103, 0.822);
+      }
+      /*header start */
+      header {
+        height: 100vh;
+        background: url("https://media-cdn.tripadvisor.com/media/photo-s/06/0d/20/ac/pizza-italia.jpg")
+          center center/cover no-repeat;
+      }
+      #navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      #navbar img {
+        width: 70px;
+        margin-left: 100px;
+        border-radius: 70%;
+      }
+      #navbar ul {
+        display: flex;
+        margin-right: 100px;
+      }
+      #navbar ul li a {
+        padding: 16px 20px;
+        color: aliceblue;
+        font-weight: 600;
+      }
+      #navbar ul li a:hover {
+        border-bottom: 2px solid #ffe874;
+      }
+      .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 75%;
+      }
+      .content h1 {
+        font-size: 40px;
+        color: aliceblue;
+      }
+      .content p {
+        margin: 20px 0 40px;
+        color: aliceblue;
+      }
+      header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(0, 0, 0, 0.6);
+      }
+      header * {
+        z-index: 10;
+      }
+
+      /*header end*/
+      /*about start */
+      #AboutUs {
+        height: 80vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #f4f4ff;
+      }
+      #AboutUs.title,
+      #menu .title {
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+      #AboutUs h2 {
+        font-size: 40px;
+        color: #0b0b0b;
+        margin-bottom: 20px;
+        padding-left:15px;
+      }
+      #AboutUs .title p {
+        font-size: 14px;
+        color: #9a9a9a;
+        font-weight: 600;
+        padding-left:20px;
+      }
+      #AboutUs .about-content {
+        display: flex;
+        justify-content: space-between;
+        padding-left:20px;
+      }
+      #AboutUs .about-content p {
+        color: #9a9a9a;
+        margin-right: 7rem;
+        font-weight: 500;
+        line-height: 1.6;
+      }
+
+      /* about end */
+      /*menu start */
+      #menu {
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+       
+      }
+      .menu-items {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        
+      }
+      .menu-items img {
+        width: 160px;
+        height: 150px;
+        
+      }
+
+      /*menu end*/
+      #contact {
+        padding: 5rem 0;
+        background: #f4f4ff;
+      }
+      #contact .container {
+        max-width: 900px;
+      }
+      #Contact {
+        background-color:#000303;
+        color: #fff;
+        padding: 30px 0;
+        border-radius: 15px;
+    }
+    .footerNav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    #contact.marya {
+        width:100%;
+        padding:70px 30px 20px;
+    }
+    .social_icons {
+        display: flex;
+        justify-content: center;
+    
+    }
+    .social_icons a{
+        text-decoration: none;
+        padding: 10px;
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 50px;
+    }
+    .social_icons a i {
+        font-size: 2em;
+        color:rgb(119, 115, 115);
+    
+        opacity:0.9 ;
+    }
+    .social_icons a:hover{
+        background-color: #a48484;
+        transition: 0.5s;
+    }
+    .social_icons a:hover i{
+        color:white;
+        transition: 0.5s ;
+    }
+    .footerNav ul li a {
+        color:white;
+        margin:20px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.7;
+        transition: 0.5s;
+        
+    }
+    
+    .footerNav ul li a:hover {
+        opacity:1;
+        color:rgb(136, 129, 129);
+        
+    }
+    .footer_bottom {
+        padding: 20px;
+        text-align: center;
+    
+    }
+    .footer_bottom p{
+        color: rgba(255, 255, 255, 0.95);
+    }
+    
